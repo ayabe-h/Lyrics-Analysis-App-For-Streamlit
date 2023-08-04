@@ -1,4 +1,4 @@
-io
+striamlit
 mecab-python3
 pandas
 Counter
