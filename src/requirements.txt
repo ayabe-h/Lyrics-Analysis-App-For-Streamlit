@@ -1,5 +1,5 @@
 io
-MeCab-python3
+mecab-python3
 pandas
 Counter
 WordCloud
