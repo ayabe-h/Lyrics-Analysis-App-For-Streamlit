@@ -174,7 +174,6 @@ if uploaded_file is not None:
                 # dilist_with_pnに感情値が存在する場合のみ、数値のリストを取得
                 pn_values = [word['PN'] for word in dilist_with_pn if 'PN' in word and isinstance(word['PN'], (int, float))]
 
-                pn_values
                 
                 sns.histplot(pd.Series(pn_values), bins=20, kde=False, color='blue', edgecolor='black')
                 plt.xlabel('score')
